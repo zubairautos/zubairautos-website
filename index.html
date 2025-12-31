@@ -1,88 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Zubair Autos | Bike Spare Parts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <style>
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background-color: #f4f6f8;
-  color: #333;
-}
-header {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
-}
-header h1 {
-  font-size: 42px;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
-}
-header p {
-  font-size: 18px;
-  opacity: 0.9;
-}
-nav {
-  background: #e63946;
-  padding: 12px;
-  text-align: center;
-}
-nav a {
-  color: #fff;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: 600;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-section {
-  background: #fff;
-  margin: 30px auto;
-  padding: 35px;
-  max-width: 1100px;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-}
-section h2 {
-  color: #e63946;
-  margin-bottom: 15px;
-}
-.services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
-.service-box {
-  background: #f8f9fa;
-  padding: 20px;
-  border-radius: 8px;
-  border-left: 5px solid #e63946;
-}
-footer {
-  background: #111;
-  color: #ccc;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-}
-footer span {
-  color: #fff;
-  font-weight: bold;
-}
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 30px;
-  }
-}
+body {margin:0;font-family:'Segoe UI',Arial,sans-serif;background-color:#f4f6f8;color:#333;}
+header {background: url('banner.jpg') no-repeat center center/cover; color:white; height:300px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;}
+header h1 {font-size:42px;margin-bottom:10px;letter-spacing:1px;text-shadow: 2px 2px 5px rgba(0,0,0,0.5);}
+header p {font-size:18px; opacity:0.9; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);}
+nav {background:#e63946; padding:12px; text-align:center;}
+nav a {color:#fff; margin:0 15px; text-decoration:none; font-weight:600;}
+nav a:hover{text-decoration:underline;}
+section {background:#fff; margin:30px auto; padding:35px; max-width:1100px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,0.08);}
+section h2 {color:#e63946; margin-bottom:15px;}
+.services {display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:20px;}
+.service-box {background:#f8f9fa; padding:20px; border-radius:8px; border-left:5px solid #e63946;}
+h2 img {display:inline-block; margin-right:10px; vertical-align:middle;}
+footer {background:#111; color:#ccc; text-align:center; padding:20px; margin-top:40px;}
+.whatsapp-float {position:fixed; bottom:20px; right:20px; background-color:#25D366; color:white; font-size:28px; padding:14px 18px; border-radius:50%; text-decoration:none; box-shadow:0 6px 15px rgba(0,0,0,0.3); z-index:999;}
+.whatsapp-float:hover {background-color:#1ebe5d;}
 </style>
 </head>
-
 <body>
 
 <header>
@@ -99,39 +39,24 @@ footer span {
 </nav>
 
 <section id="home">
-  <h2>Welcome to Zubair Autos</h2>
-  <p>
-    Zubair Autos is a trusted name in bike spare parts, providing reliable,
-    durable, and high-performance motorcycle parts for all major brands.
-    We focus on quality products, fair pricing, and long-term customer trust.
-  </p>
+  <h2><img src="icon-intro.png" width="32">Welcome to Zubair Autos</h2>
+  <p>Zubair Autos is a trusted name in bike spare parts, providing reliable, durable, and high-performance motorcycle parts for all major brands. We focus on quality products, fair pricing, and long-term customer trust.</p>
 </section>
 
 <section id="about">
-  <h2>About Zubair Autos</h2>
-  <p>
-    Zubair Autos was established with the aim of delivering genuine bike parts
-    to customers who value performance and safety. With years of experience
-    in the motorcycle parts industry, we understand the needs of riders and mechanics.
-  </p>
+  <h2><img src="icon-about.png" width="32">About Zubair Autos</h2>
+  <p>Our business started with the goal of delivering genuine bike parts to customers who value performance and safety.</p>
 </section>
 
 <section id="vision">
-  <h2>Our Vision</h2>
-  <p>
-    To become a leading and most trusted bike spare parts supplier,
-    known for quality, honesty, and customer satisfaction.
-  </p>
-
-  <h2>Our Mission</h2>
-  <p>
-    Our mission is to provide high-quality and genuine bike spare parts
-    at competitive prices while ensuring excellent customer service.
-  </p>
+  <h2><img src="icon-vision.png" width="32">Our Vision</h2>
+  <p>To become a leading and most trusted bike spare parts supplier.</p>
+  <h2><img src="icon-mission.png" width="32">Our Mission</h2>
+  <p>To provide high-quality and genuine bike spare parts at competitive prices with excellent service.</p>
 </section>
 
 <section id="services">
-  <h2>Our Services</h2>
+  <h2><img src="icon-services.png" width="32">Our Services</h2>
   <div class="services">
     <div class="service-box">All Motorcycle Spare Parts</div>
     <div class="service-box">Engine & Mechanical Parts</div>
@@ -143,40 +68,18 @@ footer span {
 </section>
 
 <section id="contact">
-  <h2>Contact Zubair Autos</h2>
-  <p><strong>Phone:</strong> 0314-9335694</p>
-  <p><strong>WhatsApp:</strong> 0314-9335694</p>
-  <p><strong>Address:</strong> Chapper Road, Qazi Asif MArket, Haripur</p>
+  <h2><img src="icon-contact.png" width="32">Contact Zubair Autos</h2>
+  <p><strong>Phone:</strong> 03149335694</p>
+  <p><strong>WhatsApp:</strong> 03149335694</p>
+  <p><strong>Address:</strong> Your Shop Address Here</p>
 </section>
 
 <footer>
-  <p>© 2025 <span>Zubair Autos</span>. All Rights Reserved.</p>
+  <p>© 2025 Zubair Autos. All Rights Reserved.</p>
 </footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/923149335694?text=Hello%20Zubair%20Autos,%20I%20need%20bike%20parts" class="whatsapp-float" target="_blank">💬</a>
 
 </body>
 </html>
-<!-- WhatsApp Floating Button -->
-<a href="https://wa.me/923149335694?text=Hello%20Zubair%20Autos,%20I%20need%20bike%20parts"
-   class="whatsapp-float" target="_blank">
-  💬
-</a>
-
-<style>
-.whatsapp-float {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25D366;
-  color: white;
-  font-size: 28px;
-  padding: 14px 18px;
-  border-radius: 50%;
-  text-decoration: none;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
-  z-index: 999;
-}
-.whatsapp-float:hover {
-  background-color: #1ebe5d;
-}
-</style>
-
